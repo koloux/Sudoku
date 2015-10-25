@@ -6,18 +6,16 @@
 /*   By: nhuber <nhuber@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/10/24 15:30:56 by nhuber            #+#    #+#             */
-/*   Updated: 2015/10/25 09:35:44 by nhuber           ###   ########.fr       */
+/*   Updated: 2015/10/25 09:45:50 by nhuber           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
 
-void	ft_print(char **grid)
+void	ft_print(char grid[9][9])
 {
 	int i;
 	int j;
